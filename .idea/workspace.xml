@@ -4,22 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/singleton/Singleton.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Singleton">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/dialog/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/dialog/HtmlDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/dialog/WindowsDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,14 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,12 +70,35 @@
       <updated>1678080325315</updated>
       <workItem from="1678080326827" duration="1112000" />
       <workItem from="1678081462963" duration="2054000" />
-      <workItem from="1678083901654" duration="279000" />
+      <workItem from="1678083901654" duration="2492000" />
     </task>
+    <task id="LOCAL-00001" summary="Singleton">
+      <created>1678085570699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678085570699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
