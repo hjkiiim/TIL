@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Prototype Registry">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/button/MacButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/button/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/checkbox/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/checkbox/MacCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/checkbox/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/factory/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/factory/MacFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/abstractFactory/factory/WindowsFactory.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Abstract Factory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/adapter/SquarePegAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/round/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/round/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/adapter/square/SquarePeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +70,7 @@
       <workItem from="1678080326827" duration="1112000" />
       <workItem from="1678081462963" duration="2054000" />
       <workItem from="1678083901654" duration="3291000" />
-      <workItem from="1678150072926" duration="10471000" />
+      <workItem from="1678150072926" duration="13112000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -113,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678166239289</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Abstract Factory">
+      <created>1678171105236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678171105236</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +137,8 @@
     <MESSAGE value="Builder" />
     <MESSAGE value="Prototype" />
     <MESSAGE value="Prototype Registry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prototype Registry" />
+    <MESSAGE value="Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
