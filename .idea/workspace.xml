@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Builder">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/shape/Shape.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/cache/BundledShapeCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/prototype/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <workItem from="1678080326827" duration="1112000" />
       <workItem from="1678081462963" duration="2054000" />
       <workItem from="1678083901654" duration="3291000" />
-      <workItem from="1678150072926" duration="7538000" />
+      <workItem from="1678150072926" duration="8438000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678155465959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prototype">
+      <created>1678165309523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678165309523</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +118,8 @@
     <MESSAGE value="Singleton" />
     <MESSAGE value="Factory" />
     <MESSAGE value="Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
