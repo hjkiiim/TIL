@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Bridge">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/editor/ImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Shape.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Composite">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/decorator/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/decorator/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/decorator/DataSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/decorator/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/decorator/decorator/FileDataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/WindowsButton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <workItem from="1678081462963" duration="2054000" />
       <workItem from="1678083901654" duration="3291000" />
       <workItem from="1678150072926" duration="15939000" />
-      <workItem from="1678235940477" duration="5264000" />
+      <workItem from="1678235940477" duration="8664000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678180801754</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Composite">
+      <created>1678243194385</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678243194385</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +163,8 @@
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Adapter" />
     <MESSAGE value="Bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bridge" />
+    <MESSAGE value="Composite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
