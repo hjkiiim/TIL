@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Adapter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/device/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/device/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/device/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/remote/AdvancedRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/remote/BasicRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/bridge/remote/Remote.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Bridge">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/editor/ImageEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/BaseShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/composite/shape/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/creationalPattern/factory/button/WindowsButton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +74,8 @@
       <workItem from="1678080326827" duration="1112000" />
       <workItem from="1678081462963" duration="2054000" />
       <workItem from="1678083901654" duration="3291000" />
-      <workItem from="1678150072926" duration="15187000" />
+      <workItem from="1678150072926" duration="15939000" />
+      <workItem from="1678235940477" duration="5264000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678175846962</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Bridge">
+      <created>1678180801754</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678180801754</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +158,8 @@
     <MESSAGE value="Prototype Registry" />
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
+    <MESSAGE value="Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bridge" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

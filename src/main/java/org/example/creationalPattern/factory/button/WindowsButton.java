@@ -23,8 +23,9 @@ public class WindowsButton implements Button{
         onClick();
         panel.add(button);
 
-        frame.setSize(320, 200);
+        frame.setSize(1920, 1080);
         frame.setVisible(true);
+        frame.setResizable(false);
         onClick();
     }
 
