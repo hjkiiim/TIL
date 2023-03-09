@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/middleware/Middleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/middleware/RoleCheckMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/middleware/ThrottlingMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/middleware/UserExistsMiddleware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/server/Server.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="ChainOfResponsibility">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CommandHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CopyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/PasteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/editor/Editor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +29,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -46,20 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +75,8 @@
       <workItem from="1678083901654" duration="3291000" />
       <workItem from="1678150072926" duration="15939000" />
       <workItem from="1678235940477" duration="16536000" />
-      <workItem from="1678321855864" duration="4451000" />
+      <workItem from="1678321855864" duration="4688000" />
+      <workItem from="1678331194182" duration="3446000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -166,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678329598313</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="ChainOfResponsibility">
+      <created>1678331072840</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678331072840</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +207,8 @@
     <MESSAGE value="Flyweight" />
     <MESSAGE value="Facade" />
     <MESSAGE value="Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy" />
+    <MESSAGE value="ChainOfResponsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChainOfResponsibility" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
