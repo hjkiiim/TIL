@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="ChainOfResponsibility">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CommandHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CopyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/CutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/command/PasteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/command/editor/Editor.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/iterator/FacebookIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/iterator/LinkedInIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/iterator/ProfileIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/profile/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/socialNetworks/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/socialNetworks/LinkedIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/socialNetworks/SocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/iterator/spammer/SocialSpammer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +30,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d2124c11-63c7-4dcd-9c70-fd2ce710a51b" />
+        <option name="url" value="https://github.com/hjkiiim/DesignPattern.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +73,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,7 +92,8 @@
       <workItem from="1678150072926" duration="15939000" />
       <workItem from="1678235940477" duration="16536000" />
       <workItem from="1678321855864" duration="4688000" />
-      <workItem from="1678331194182" duration="3446000" />
+      <workItem from="1678331194182" duration="4583000" />
+      <workItem from="1678341488782" duration="5824000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -176,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678331072840</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Command">
+      <created>1678340553550</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678340553550</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +232,8 @@
     <MESSAGE value="Facade" />
     <MESSAGE value="Proxy" />
     <MESSAGE value="ChainOfResponsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChainOfResponsibility" />
+    <MESSAGE value="Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
