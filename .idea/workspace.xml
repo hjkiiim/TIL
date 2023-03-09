@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Decorator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/facade/VideoConversionFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/AudioMixer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/BitrateReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/Codec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/CodecFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/MPEG4CompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/OggCompressionCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/facade/library/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/flyweight/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/flyweight/forest/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/flyweight/tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/flyweight/tree/TreeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/flyweight/tree/TreeType.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Facade">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/chainOfResponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/downloader/Downloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/library/ThirdPartyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/library/ThirdPartyLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/library/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/structuralPattern/proxy/proxy/CacheProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +73,8 @@
       <workItem from="1678081462963" duration="2054000" />
       <workItem from="1678083901654" duration="3291000" />
       <workItem from="1678150072926" duration="15939000" />
-      <workItem from="1678235940477" duration="14020000" />
+      <workItem from="1678235940477" duration="16536000" />
+      <workItem from="1678321855864" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -152,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678253585249</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Flyweight">
+      <created>1678264636067</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678264636067</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Facade">
+      <created>1678264654245</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678264654245</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +188,9 @@
     <MESSAGE value="Bridge" />
     <MESSAGE value="Composite" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Flyweight" />
+    <MESSAGE value="Facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facade" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
