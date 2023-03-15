@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="State">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/strategy/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/strategy/PayByCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/strategy/PayByPayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/strategy/strategy/PayStrategy.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Strategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Twitter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +117,7 @@
       <workItem from="1678679333772" duration="3357000" />
       <workItem from="1678755645493" duration="8241000" />
       <workItem from="1678785900532" duration="195000" />
-      <workItem from="1678840215999" duration="3920000" />
+      <workItem from="1678840215999" duration="6041000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -261,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678842027977</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Strategy">
+      <created>1678847423389</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678847423389</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +304,8 @@
     <MESSAGE value="Memento" />
     <MESSAGE value="Observer" />
     <MESSAGE value="State" />
-    <option name="LAST_COMMIT_MESSAGE" value="State" />
+    <MESSAGE value="Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
