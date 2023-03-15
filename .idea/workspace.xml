@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="Strategy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Facebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/templateMethod/network/Twitter.java" afterDir="false" />
+    <list default="true" id="3c156e23-7ed0-40b5-a39f-4065deb7fec5" name="Changes" comment="TemplateMethod">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/shape/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/shape/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/shape/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/behavioralPattern/visitor/visitor/XMLExportVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +121,7 @@
       <workItem from="1678679333772" duration="3357000" />
       <workItem from="1678755645493" duration="8241000" />
       <workItem from="1678785900532" duration="195000" />
-      <workItem from="1678840215999" duration="6041000" />
+      <workItem from="1678840215999" duration="8769000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton">
       <created>1678085570699</created>
@@ -266,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678847423389</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TemplateMethod">
+      <created>1678851913637</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678851913637</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +316,8 @@
     <MESSAGE value="Observer" />
     <MESSAGE value="State" />
     <MESSAGE value="Strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy" />
+    <MESSAGE value="TemplateMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="TemplateMethod" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
